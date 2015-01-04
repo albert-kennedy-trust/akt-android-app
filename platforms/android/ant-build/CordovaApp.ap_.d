@@ -51,6 +51,11 @@
 /Users/Jonathon/Web/AKTAndroidApp/platforms/android/assets/www/images/AKT_Shoot.jpg \
 /Users/Jonathon/Web/AKTAndroidApp/platforms/android/assets/www/images/htf.jpg \
 /Users/Jonathon/Web/AKTAndroidApp/platforms/android/assets/www/images/htf.png \
+/Users/Jonathon/Web/AKTAndroidApp/platforms/android/assets/www/images/icon_about.png \
+/Users/Jonathon/Web/AKTAndroidApp/platforms/android/assets/www/images/icon_contact.png \
+/Users/Jonathon/Web/AKTAndroidApp/platforms/android/assets/www/images/icon_needHelp.png \
+/Users/Jonathon/Web/AKTAndroidApp/platforms/android/assets/www/images/icon_people.png \
+/Users/Jonathon/Web/AKTAndroidApp/platforms/android/assets/www/images/Icons_AKT.png \
 /Users/Jonathon/Web/AKTAndroidApp/platforms/android/assets/www/images/lndn_councils.jpg \
 /Users/Jonathon/Web/AKTAndroidApp/platforms/android/assets/www/images/lndn_councils.png \
 /Users/Jonathon/Web/AKTAndroidApp/platforms/android/assets/www/images/logo_white.png \

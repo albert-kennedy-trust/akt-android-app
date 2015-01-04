@@ -27,6 +27,7 @@
       position: relative;
       display: block;
       padding: 10px 14px;
+      text-align: center;
     }
 
     @media (max-width: 460px) {
@@ -34,10 +35,32 @@
         padding: 10px 8px;
         font-size: 12px;
       }
+
+      .nav-pills > li {
+        margin-right: 0px !important;
+        width: 25%;
+      }
     }
 
     .nav-pills > li + li {
       margin-left: 0;
+    }
+
+    .nav-pills > li {
+      margin-right: 7px;
+    }
+
+    .nav-pills > li:last-child {
+      margin-right: 0px;
+    }
+
+    .nav > li > a:hover, .nav > li > a:focus {
+      background-color: transparent;
+    }
+
+    .nav img {
+      display: block;
+      margin: 3px auto;
     }
 
     .dropdown-menu {
@@ -50,7 +73,7 @@
 
     .container, nav > ul {
       width: 100%;
-      max-width: 800px;
+      max-width: 460px;
       margin: 0 auto;
     }
 
@@ -158,10 +181,30 @@
 <body class="platform-android platform-cordova platform-webview">
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <ul class="nav nav-pills">
-      <li><a href="#help">Need Help?</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#people">People Like Me</a></li>
-      <li><a href="#about">About</a></li>
+      <li>
+        <a href="#help">
+          <img src="images/icon_needHelp.png" width="35" />
+          Need Help?
+        </a>
+      </li>
+      <li>
+        <a href="#contact">
+          <img src="images/icon_contact.png" width="35" />
+          Contact
+        </a>
+      </li>
+      <li>
+        <a href="#people">
+          <img src="images/icon_people.png" width="35" />
+          People Like Me
+        </a>
+      </li>
+      <li>
+        <a href="#about">
+          <img src="images/icon_about.png" width="35" />
+          About
+        </a>
+      </li>
     </ul>
   </nav>
 
